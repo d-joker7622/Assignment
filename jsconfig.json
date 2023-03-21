@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "src",
+    "paths": {
+      "assets/*": ["assets/*"],
+      "navigation/*": ["navigation/*"],
+      "views/*": ["views/*"]
+    }
+  },
+  "include": ["index.js", "App.js", "src/**/*"]
+}
